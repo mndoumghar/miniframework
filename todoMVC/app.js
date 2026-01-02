@@ -1,4 +1,4 @@
-import { render, useState, useHash } from '../../src/index.js';
+import { render, useState, useHash } from '../src/index.js';
 import { TodoHeader } from './components/todoHeader.js';
 import { TodoList } from './components/todoList.js';
 import { TodoFooter } from './components/todoFooter.js';
