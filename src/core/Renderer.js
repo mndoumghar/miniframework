@@ -103,7 +103,6 @@ export class Renderer {
         };
     }
     
-    // Hooks proxy methods
     useState(initialValue) {
         return this.hooks.useState(initialValue);
     }
@@ -113,5 +112,4 @@ export class Renderer {
     }
 }
 
-// Singleton instance
 export const renderer = new Renderer();
